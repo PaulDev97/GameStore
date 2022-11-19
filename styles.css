@@ -298,3 +298,61 @@ body {
 .data_game h3 {
   font-size: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media screen and (min-width: 360px) and (max-width: 480px){
+
+
+  /* Seccion beneficios */
+  .benefit_card {
+    width:90%;
+    padding: 10px;
+  }
+
+  .benefit_card h2 {
+    font-size: 16px;
+  }
+  
+  .benefit_card i {
+    font-size: 40px;
+    text-shadow: orange 0 0 12px, orange 0 0 24px, orange 0 0 36px;
+  }
+  
+  .benefit_card p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+  
+  }
+
+
+
+  /* Seccion juegos/cartas */
+  .card_game {
+    width: 280px;
+   
+    
+  }
+
+}
