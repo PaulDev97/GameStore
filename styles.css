@@ -4,11 +4,16 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 body {
   
   background-color: #111; 
   
+}
+
+html {
+  scroll-padding-top: 100px;
 }
 
 .header {
@@ -155,7 +160,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .benefits_container {
@@ -200,9 +205,9 @@ body {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
 }
 
 .card_game {
@@ -248,10 +253,24 @@ body {
 .name_game {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   
   
+}
+
+.name_game h3 {
+  margin-left: 12px;
+}
+
+
+.name_game span {
+  border: 1.5px solid rgb(12, 241, 58);
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 12px;
+  margin-right: 2px;
+  letter-spacing: 1px;
 }
 
 .category {
@@ -276,7 +295,7 @@ body {
 } 
 
 .price div {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -286,6 +305,8 @@ body {
 
 .price div  span {
   color: #fff;
+  margin-left: 12px;
+  font-size: 17px;
 }
 
 
@@ -293,6 +314,8 @@ body {
   cursor: pointer;
   padding: 6px;
   border-radius: 5px;
+  margin-right: 2px;
+  
 }
 
 .data_game h3 {

@@ -13,7 +13,7 @@ const createElement = games => `
 <div class="data_game">
   <div class="name_game">
     <h3>${games.game}</h3>
-    <span>4.5</span>
+    <span>${games.stars}</span>
   </div>
   <div class="category">
     <span>${games.gener}</span>
